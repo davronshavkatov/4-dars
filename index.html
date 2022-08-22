@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      background-color: #e0e3ff;
+    }
+    .login {
+      background-color: white;
+      width: 400px;
+      height: 600px;
+      margin: auto;
+      margin-top: 11mm;
+      border-radius: 10px;
+      padding-top: 36px;
+      text-align: center;
+      /* padding-left: 20px; */
+      /* padding-right: 20px; */
+    }
+    h1 {
+      color: blue;
+      font-size: 44px;
+      margin-top: 36px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .kiritish {
+      border-style: solid;
+      border-radius: 10px;
+      border-color: #6066ff;
+      margin-top: 15px;
+      padding-left: 15px;
+      margin-left: auto;
+      margin-right: auto;
+
+      width: 330px;
+      height: 35px;
+    }
+    .saqlash {
+      border-style: solid;
+      border-radius: 20px;
+      background-color: #252eff;
+      width: 352px;
+      height: 42px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 14px;
+      color: white;
+      border: none;
+    }
+  </style>
+  <body>
+    <form action="login.html" method="get">
+      <div class="login">
+        <h1>Register</h1>
+        <table border="0" width="100%">
+          <tr>
+            <td>
+              <input
+                class="kiritish"
+                type="text"
+                placeholder="Full name"
+                name=""
+                id=""
+              />
+            </td>
+          </tr>
+        </table>
+        <table width="100%">
+          <tr>
+            <td>
+              <input class="kiritish" type="email" placeholder="E-mail" />
+            </td>
+          </tr>
+        </table>
+        <table width="100%">
+          <tr>
+            <td>
+              <input
+                class="kiritish"
+                type="tel"
+                pattern="[0-9]{3}:[0-9]{2}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+                placeholder="Phone"
+              />
+            </td>
+          </tr>
+        </table>
+        <table width="100%">
+          <tr>
+            <td>
+              <input class="kiritish" type="password" placeholder="Password" />
+            </td>
+          </tr>
+        </table>
+
+        <table width="100%">
+          <tr>
+            <td>
+              <input
+                class="kiritish"
+                type="password"
+                placeholder="Confirm password"
+              />
+            </td>
+          </tr>
+        </table>
+        <br />
+        <br />
+
+        <table width="100%">
+          <tr>
+            <td><input class="saqlash" type="button" value="Register" /></td>
+          </tr>
+        </table>
+        <table width="100%">
+          <tr>
+            <td>
+              <input style="background-color:
+              #5E64FF ;"
+                class="saqlash"
+                type="submit"
+                value="How accaunt? Sing in" 
+              />
+            </td>
+          </tr>
+        </table>
+      </div>
+    </form>
+  </body>
+</html>
